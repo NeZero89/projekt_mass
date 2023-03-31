@@ -59,10 +59,9 @@ public static int[] generateRandomArray() {
         System.out.println("Задача №4");
 
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        int a= reverseFullName.length-1;
+                for (int i = a; i>=0; i--){
+                    System.out.print(reverseFullName[i]);}
 
-                for (int i = 0; i < reverseFullName.length-1; i = i++){
-            System.out.println(reverseFullName[i]);
-    }
-        System.out.println(reverseFullName);
     }
     }
