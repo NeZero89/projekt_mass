@@ -64,6 +64,5 @@ public static int[] generateRandomArray() {
             System.out.println(reverseFullName[i]);
     }
         System.out.println(reverseFullName);
-    int n = reverseFullName.length;
     }
     }
